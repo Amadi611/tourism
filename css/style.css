@@ -1,0 +1,32 @@
+/* ============================================================
+   style.css  ->  Our small extra styles.
+   Bootstrap does most of the work; we only add a few touches.
+   ============================================================ */
+
+body {
+    background-color: #f5f7fb;
+}
+
+/* Make every package card image the same height so the grid
+   looks neat even when photos are different sizes. */
+.package-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Lift the card a little when the mouse is over it. */
+.package-card {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.package-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12);
+}
+
+/* A simple coloured banner for the top of the home page. */
+.hero {
+    background: linear-gradient(rgba(13, 110, 253, 0.75), rgba(13, 110, 253, 0.75)),
+                url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600') center/cover;
+    color: #fff;
+    padding: 80px 0;
+}
