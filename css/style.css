@@ -25,7 +25,7 @@ body {
 
 /* A simple coloured banner for the top of the home page. */
 .hero {
-    background: linear-gradient(rgba(13, 110, 253, 0.75), rgba(13, 110, 253, 0.75)),
+    background: linear-gradient(rgba(184, 195, 213, 0.75), rgba(13, 110, 253, 0.75)),
                 url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600') center/cover;
     color: #fff;
     padding: 80px 0;
