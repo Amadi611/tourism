@@ -22,3 +22,63 @@
 .auth-card .btn-primary:disabled {
     opacity: 0.7;
 }
+
+/* ==================== Auth Modal Styles ==================== */
+
+#authModal .modal-content {
+    border-radius: 1rem;
+    border: none;
+}
+
+#authModal .modal-header {
+    border-bottom: 1px solid #dee2e6;
+}
+
+#authModal .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+#authModal .input-group-text {
+    border-color: #dee2e6;
+}
+
+#authModal .btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+
+#authModal .btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+#authModal .btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* Hero section buttons */
+.hero .btn-lg {
+    padding: 0.75rem 2rem;
+    font-size: 1.125rem;
+    border-radius: 0.5rem;
+}
+
+.hero .btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+
+.hero .btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.hero .btn-outline-primary {
+    border-color: #0d6efd;
+    color: #0d6efd;
+}
+
+.hero .btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: white;
+}
