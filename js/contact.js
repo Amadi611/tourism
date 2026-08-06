@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
       'Email: ' + data.get('email') + '\n\n' +
       data.get('message');
     window.location.href =
-      'mailto:info@travellanka.example?subject=' +
+      'mailto:info@serendibjourneys.example?subject=' +
       encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 
     form.reset();

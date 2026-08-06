@@ -1,6 +1,6 @@
-# Travel Lanka — Static Site (No Database)
+# Serendib Journeys — Static Site (No Database)
 
-A database-free, static version of the "Travel Lanka" tourism site, ready to
+A database-free, static version of the "Serendib Journeys" tourism site, ready to
 deploy to **Vercel** (or any static host: Netlify, GitHub Pages, etc.).
 
 The original project was PHP + MySQL. Vercel does not run PHP or MySQL, so the

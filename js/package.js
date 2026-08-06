@@ -104,7 +104,7 @@ function wireBookingForm(pkg) {
       'People: ' + people + '\n' +
       'Estimated total: $' + total;
     window.location.href =
-      'mailto:info@travellanka.example?subject=' +
+      'mailto:info@serendibjourneys.example?subject=' +
       encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 
     form.reset();
@@ -120,6 +120,6 @@ document.addEventListener('DOMContentLoaded', function () {
     renderNotFound(container);
     return;
   }
-  document.title = pkg.title + ' - Travel Lanka';
+  document.title = pkg.title + ' - Serendib Journeys';
   renderPackage(container, pkg);
 });
