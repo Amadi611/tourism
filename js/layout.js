@@ -37,7 +37,7 @@ function renderFooter() {
     '        <p class="mb-1 text-white fw-bold">',
     '            <i class="bi bi-airplane-engines"></i> Serendib Journeys',
     '        </p>',
-    '        <p class="mb-0 small">A student project &middot; Static site &middot; Built with HTML, Bootstrap &amp; a little JavaScript</p>',
+    '        <p class="mb-0 small">© 2026 Serendib Journeys. All Rights Reserved. | Designed with ❤️ for Sri Lanka Tourism</p>',
     '    </div>',
     '</footer>'
   ].join('');
